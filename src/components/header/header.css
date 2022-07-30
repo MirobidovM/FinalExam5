@@ -1,0 +1,51 @@
+.site-logo {
+  margin-top: 26px;
+}
+
+.header {
+  margin-top: 26px;
+  margin-bottom: 104px;
+}
+
+.header-link {
+  margin-right: 40px;
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #9a9a9a;
+  transition: 0.3s ease;
+}
+
+.header-link:hover {
+  color: #ccc;
+}
+
+.header-link:active {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #3d3d3d;
+}
+
+.header-subtext {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #474747;
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.header-subtext::after {
+  content: url('../../assets/img/aside-before.svg');
+  margin-left: 16px;
+}

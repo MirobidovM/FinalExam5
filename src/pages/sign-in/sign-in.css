@@ -1,0 +1,103 @@
+.sing-in__logo-link {
+  position: absolute;
+  z-index: 1;
+  top: 26px;
+  left: 120px;
+}
+
+.sing-in__login-title {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 53px;
+  color: #000000;
+  width: 121px;
+  margin-bottom: 56px;
+}
+
+.sing-in__input-email {
+  width: 350px;
+  height: 40px;
+  background-color: #f4f4f4;
+  border-radius: 3px;
+}
+
+.sing-in__input-password {
+  width: 350px;
+  height: 40px;
+  background-color: #f4f4f4;
+  border-radius: 3px;
+}
+
+.sing-in__login-btn {
+  background-color: #000000;
+  border-radius: 3px;
+  width: 350px !important;
+  height: 40px;
+  border: 1px solid transparent;
+}
+
+.sing-in__login-btn:hover {
+  background-color: #fff;
+  color: #000000;
+  border: 1px solid #000000;
+}
+
+.sing-in__login-btn:active {
+  opacity: 0.5;
+  background-color: #fff;
+  color: #000000;
+  border: 1px solid #000000;
+}
+
+.input-place::placeholder {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #474747;
+}
+
+@media screen and (max-width: 768px) {
+  .sing-in__logo-link {
+    left: 20px;
+  }
+}
+
+@media screen and (max-width: 445px) {
+  .sing-in__logo-link {
+    margin-top: 20px;
+  }
+  .sing-in__logo-img {
+    width: 130px;
+    height: 40px;
+  }
+
+  .sing-in__login-title {
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 33px;
+    color: #000000;
+    width: 81px;
+    margin-bottom: 26px;
+  }
+
+  .sing-in__input-email {
+    width: 300px;
+    height: 30px;
+  }
+
+  .sing-in__input-password {
+    width: 300px;
+    height: 30px;
+  }
+
+  .sing-in__login-btn {
+    width: 300px !important;
+    height: 30px;
+  }
+}

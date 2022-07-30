@@ -1,0 +1,38 @@
+.aside {
+  margin-right: 109px;
+}
+
+.aside-comment {
+  width: 328px;
+}
+
+.aside-logo {
+  margin-bottom: 80px;
+}
+
+.aside-title {
+  margin: 0;
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #474747;
+  margin-bottom: 36px;
+}
+
+.aside-text {
+  margin: 0;
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #474747;
+  width: 328px;
+  margin-bottom: 28px;
+}
+
+.aside-icon {
+  margin-right: 25px;
+}
