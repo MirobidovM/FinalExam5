@@ -61,7 +61,6 @@ export const SignIn = () => {
             placeholder="Login"
           />
         </Item>
-
         <Item
           name="password"
           rules={[{ required: true, message: 'Please input your password!' }]}
@@ -72,7 +71,6 @@ export const SignIn = () => {
             placeholder="Password"
           />
         </Item>
-
         <Item
           wrapperCol={{
             offset: 0,
