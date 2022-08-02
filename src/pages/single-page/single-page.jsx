@@ -29,10 +29,12 @@ function SinglePage() {
     <div>
       <form className="d-flex search-form justify-content-end">
         <input type={'search'} placeholder={'Search'} className="search-inp" />
+
         <li title="Search" className="search-icon" type="search">
           <img src={Search} alt="search-icon" width={16} height={16} />
         </li>
       </form>
+
       <div className="body">
         <li className="list-unstyled">
           <p className="comment-subtitle">User interface</p>
