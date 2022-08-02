@@ -79,6 +79,7 @@ function All() {
 
             return false;
           })
+
           .map((post) => (
             <div
               key={post.id}
@@ -101,6 +102,7 @@ function All() {
             </div>
           ))}
       </div>
+
       <div>
         <ReactPaginate
           previousLabel={'<'}
