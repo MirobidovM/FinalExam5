@@ -45,6 +45,7 @@ export const Side = () => {
                   />
                 </Link>
               </li>
+
               <li>
                 <Link to="/not">
                   <img
@@ -56,6 +57,7 @@ export const Side = () => {
                   />
                 </Link>
               </li>
+
               <li>
                 <Link to="/not">
                   <img
@@ -67,6 +69,7 @@ export const Side = () => {
                   />
                 </Link>
               </li>
+
               <li>
                 <Link to="/not">
                   <img
