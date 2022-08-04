@@ -1,9 +1,7 @@
 import { Route, Routes } from 'react-router-dom';
-
 import { Header } from './components/header';
 import { Side } from './components/sidebar';
 import { Footer } from './components/footer';
-
 import All from './pages/all/all';
 import Design from './pages/design/design';
 import Ux from './pages/ux/ux';
