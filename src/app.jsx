@@ -7,7 +7,6 @@ import './app.css';
 
 export const App = () => {
   const [token] = useAuth();
-
   if (token) {
     return <PrivateApp />;
   }
