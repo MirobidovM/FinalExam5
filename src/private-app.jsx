@@ -23,6 +23,7 @@ export const PrivateApp = () => {
               <Header />
               <Routes>
                 <Route path="/" element={<All />} />
+                
                 <Route path="/all" element={<All />} />
                 <Route path="/design" element={<Design />} />
                 <Route path="/ux" element={<Ux />} />
