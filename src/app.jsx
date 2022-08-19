@@ -11,5 +11,6 @@ export const App = () => {
   if (token) {
     return <PrivateApp />;
   }
+
   return <PublicApp />;
 };
